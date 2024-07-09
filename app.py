@@ -242,7 +242,7 @@ def performance_analysis():
         
         # Define ESG metrics to compare
         esg_metrics = ['Total E', 'Total S', 'Total G']
-        st.subheader("Financial Metrics - Horizontal Bar Chart")
+        st.subheader("Financial Metrics")
         fig1 = go.Figure()
         
         # st.subheader("Financial Metrics - Horizontal Bar Chart")
@@ -278,7 +278,7 @@ def performance_analysis():
         )
         st.plotly_chart(fig1)
         
-        st.subheader("ESG Metrics - Grouped Bar Chart")
+        st.subheader("ESG Metrics")
         fig2 = go.Figure()
         
         # Add bars for company1
